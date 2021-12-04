@@ -31,7 +31,7 @@ const Header = () => {
               <Nav.Link href="#">About</Nav.Link>
             </Nav>
             <Form className="d-flex align-items-center">
-              <h6 class="me-2">Signed as</h6>
+              <h6 className="me-2">Signed as</h6>
               <Button variant="outline-success">Logout</Button>
             </Form>
           </Navbar.Collapse>

@@ -1,18 +1,17 @@
 import React from "react";
-import { Card, Col, Button } from "react-bootstrap";
+import { Col } from "react-bootstrap";
+import './Product.css'
 
 const Product = ({ products }) => {
-  const { strDrink, strDrinkThumb, strInstructions, strCategory } = products;
-  console.log(products);
+  const { strDrink, strDrinkThumb, strCategory } = products;
   return (
     <Col>
-    <div class="card-group">
-  <div class="card">
-    <img src={strDrinkThumb} class="card-img-top" alt="..."/>
-    <div class="card-body">
-      <h5 class="card-title">{strDrink}</h5>
-      <h6>{strCategory}</h6>
-      <p class="card-text">{strInstructions}</p>
+    <div className="card-group">
+  <div className="card border-0 shadow juice-card">
+    <img src={strDrinkThumb} className="card-img-top" alt="..."/>
+    <div className="card-body">
+      <h5 className="card-title">{strDrink}</h5>
+      <p>{strCategory}</p>
     </div>
   </div>
   </div>
