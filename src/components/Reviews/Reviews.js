@@ -30,7 +30,7 @@ const Reviews = () => {
       <Container className="text-center my-5">
         <h2>Reviews</h2>
         <Carousel responsive={responsive}>
-          <div className="mt-5">
+          <div className="my-5">
             <p>
               "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
               at quis repellendus repudiandae necessitatibus. Lorem ipsum dolor
